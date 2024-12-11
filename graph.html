@@ -43,26 +43,35 @@
     <div class="container mt-4">
         <div id="find_path" class="mb-4">
             <form class="row g-3">
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="src" class="form-label">Source</label>
                     <select id="src" class="form-select form-select-sm"></select>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="dst" class="form-label">Destination</label>
                     <select id="dst" class="form-select form-select-sm"></select>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="mode" class="form-label">Mode</label>
                     <select id="mode" class="form-select form-select-sm"></select>
                 </div>
             </form>
-            <div class="text-center mt-3">
-                <div id="result">
-
+        </div>
+        <div>
+            <div  class="row">
+                <div class="col-md-10">
+                    <div id="graph"></div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-center mt-3">
+                        <div id="result">
+        
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="graph"></div>
+        
     </div>
     <script>
         function refreshOptions() {
