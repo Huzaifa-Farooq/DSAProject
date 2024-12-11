@@ -354,5 +354,8 @@ int main()
     file << json_data.dump(4);
     file.close();
 
+    // start a python server
+    system("start http://localhost:8000/graph.html && python -m http.server 8000");
+
     return 0;
 }
