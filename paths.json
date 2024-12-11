@@ -1,0 +1,596 @@
+{
+    "Attock": {
+        "Bike": {
+            "paths": {
+                "Kamra": {
+                    "cost": 0.3333333333333333,
+                    "path": [
+                        "Attock",
+                        "Kamra"
+                    ]
+                }
+            }
+        },
+        "Car": {
+            "paths": {
+                "ISB": {
+                    "cost": 0.1,
+                    "path": [
+                        "Attock",
+                        "ISB"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 0.32,
+                    "path": [
+                        "Attock",
+                        "ISB",
+                        "Kamra"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.8,
+                    "path": [
+                        "Attock",
+                        "Peshawar",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.3,
+                    "path": [
+                        "Attock",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.4,
+                    "path": [
+                        "Attock",
+                        "RWP"
+                    ]
+                }
+            }
+        },
+        "Foot": {
+            "paths": {
+                "ISB": {
+                    "cost": 2.5,
+                    "path": [
+                        "Attock",
+                        "ISB"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 5.0,
+                    "path": [
+                        "Attock",
+                        "Kamra"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 20.0,
+                    "path": [
+                        "Attock",
+                        "Kamra",
+                        "Lahore"
+                    ]
+                }
+            }
+        },
+        "Train": {
+            "paths": {
+                "ISB": {
+                    "cost": 0.45,
+                    "path": [
+                        "Attock",
+                        "Lahore",
+                        "ISB"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.225,
+                    "path": [
+                        "Attock",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.1875,
+                    "path": [
+                        "Attock",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.6,
+                    "path": [
+                        "Attock",
+                        "Lahore",
+                        "ISB",
+                        "RWP"
+                    ]
+                }
+            }
+        }
+    },
+    "ISB": {
+        "Car": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.1,
+                    "path": [
+                        "ISB",
+                        "Attock"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 0.22,
+                    "path": [
+                        "ISB",
+                        "Kamra"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.82,
+                    "path": [
+                        "ISB",
+                        "Kamra",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.4,
+                    "path": [
+                        "ISB",
+                        "Attock",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.5,
+                    "path": [
+                        "ISB",
+                        "Attock",
+                        "RWP"
+                    ]
+                }
+            }
+        },
+        "Foot": {
+            "paths": {
+                "Attock": {
+                    "cost": 2.5,
+                    "path": [
+                        "ISB",
+                        "Attock"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 5.5,
+                    "path": [
+                        "ISB",
+                        "Kamra"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 20.5,
+                    "path": [
+                        "ISB",
+                        "Kamra",
+                        "Lahore"
+                    ]
+                }
+            }
+        },
+        "Train": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.45,
+                    "path": [
+                        "ISB",
+                        "Lahore",
+                        "Attock"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.225,
+                    "path": [
+                        "ISB",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.6375,
+                    "path": [
+                        "ISB",
+                        "Lahore",
+                        "Attock",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.15,
+                    "path": [
+                        "ISB",
+                        "RWP"
+                    ]
+                }
+            }
+        }
+    },
+    "Kamra": {
+        "Bike": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.3333333333333333,
+                    "path": [
+                        "Kamra",
+                        "Attock"
+                    ]
+                }
+            }
+        },
+        "Car": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.32,
+                    "path": [
+                        "Kamra",
+                        "ISB",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.22,
+                    "path": [
+                        "Kamra",
+                        "ISB"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.6,
+                    "path": [
+                        "Kamra",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.62,
+                    "path": [
+                        "Kamra",
+                        "ISB",
+                        "Attock",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.72,
+                    "path": [
+                        "Kamra",
+                        "ISB",
+                        "Attock",
+                        "RWP"
+                    ]
+                }
+            }
+        },
+        "Foot": {
+            "paths": {
+                "Attock": {
+                    "cost": 5.0,
+                    "path": [
+                        "Kamra",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 5.5,
+                    "path": [
+                        "Kamra",
+                        "ISB"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 15.0,
+                    "path": [
+                        "Kamra",
+                        "Lahore"
+                    ]
+                }
+            }
+        }
+    },
+    "Lahore": {
+        "Car": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.8,
+                    "path": [
+                        "Lahore",
+                        "Peshawar",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.82,
+                    "path": [
+                        "Lahore",
+                        "Kamra",
+                        "ISB"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 0.6,
+                    "path": [
+                        "Lahore",
+                        "Kamra"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.5,
+                    "path": [
+                        "Lahore",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.94,
+                    "path": [
+                        "Lahore",
+                        "Peshawar",
+                        "RWP"
+                    ]
+                }
+            }
+        },
+        "Foot": {
+            "paths": {
+                "Attock": {
+                    "cost": 20.0,
+                    "path": [
+                        "Lahore",
+                        "Kamra",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 20.5,
+                    "path": [
+                        "Lahore",
+                        "Kamra",
+                        "ISB"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 15.0,
+                    "path": [
+                        "Lahore",
+                        "Kamra"
+                    ]
+                }
+            }
+        },
+        "Train": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.225,
+                    "path": [
+                        "Lahore",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.225,
+                    "path": [
+                        "Lahore",
+                        "ISB"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.4125,
+                    "path": [
+                        "Lahore",
+                        "Attock",
+                        "Peshawar"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.375,
+                    "path": [
+                        "Lahore",
+                        "ISB",
+                        "RWP"
+                    ]
+                }
+            }
+        }
+    },
+    "Peshawar": {
+        "Bike": {
+            "paths": {
+                "RWP": {
+                    "cost": 0.7333333333333333,
+                    "path": [
+                        "Peshawar",
+                        "RWP"
+                    ]
+                }
+            }
+        },
+        "Car": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.3,
+                    "path": [
+                        "Peshawar",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.4,
+                    "path": [
+                        "Peshawar",
+                        "Attock",
+                        "ISB"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 0.62,
+                    "path": [
+                        "Peshawar",
+                        "Attock",
+                        "ISB",
+                        "Kamra"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.5,
+                    "path": [
+                        "Peshawar",
+                        "Lahore"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.44,
+                    "path": [
+                        "Peshawar",
+                        "RWP"
+                    ]
+                }
+            }
+        },
+        "Train": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.1875,
+                    "path": [
+                        "Peshawar",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.6375,
+                    "path": [
+                        "Peshawar",
+                        "Attock",
+                        "Lahore",
+                        "ISB"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.4125,
+                    "path": [
+                        "Peshawar",
+                        "Attock",
+                        "Lahore"
+                    ]
+                },
+                "RWP": {
+                    "cost": 0.7875,
+                    "path": [
+                        "Peshawar",
+                        "Attock",
+                        "Lahore",
+                        "ISB",
+                        "RWP"
+                    ]
+                }
+            }
+        }
+    },
+    "RWP": {
+        "Bike": {
+            "paths": {
+                "Peshawar": {
+                    "cost": 0.7333333333333333,
+                    "path": [
+                        "RWP",
+                        "Peshawar"
+                    ]
+                }
+            }
+        },
+        "Car": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.4,
+                    "path": [
+                        "RWP",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.5,
+                    "path": [
+                        "RWP",
+                        "Attock",
+                        "ISB"
+                    ]
+                },
+                "Kamra": {
+                    "cost": 0.72,
+                    "path": [
+                        "RWP",
+                        "Attock",
+                        "ISB",
+                        "Kamra"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.94,
+                    "path": [
+                        "RWP",
+                        "Peshawar",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.44,
+                    "path": [
+                        "RWP",
+                        "Peshawar"
+                    ]
+                }
+            }
+        },
+        "Train": {
+            "paths": {
+                "Attock": {
+                    "cost": 0.6,
+                    "path": [
+                        "RWP",
+                        "ISB",
+                        "Lahore",
+                        "Attock"
+                    ]
+                },
+                "ISB": {
+                    "cost": 0.15,
+                    "path": [
+                        "RWP",
+                        "ISB"
+                    ]
+                },
+                "Lahore": {
+                    "cost": 0.375,
+                    "path": [
+                        "RWP",
+                        "ISB",
+                        "Lahore"
+                    ]
+                },
+                "Peshawar": {
+                    "cost": 0.7875,
+                    "path": [
+                        "RWP",
+                        "ISB",
+                        "Lahore",
+                        "Attock",
+                        "Peshawar"
+                    ]
+                }
+            }
+        }
+    }
+}
